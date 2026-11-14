@@ -1,0 +1,450 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Presentación interactiva sobre el derrame petrolero Deepwater Horizon de 2010.">
+  <title>Deepwater Horizon | El costo de un desastre</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <div class="progress-track"><span id="progress"></span></div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio">
+      <span class="brand-mark">DH</span>
+      <span>DEEPWATER<span class="brand-muted"> / 2010</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <nav id="nav">
+      <a href="#contexto">Contexto</a>
+      <a href="#causas">Causas</a>
+      <a href="#impacto">Impacto</a>
+      <a href="#respuesta">Respuesta</a>
+      <a href="#prevencion">Prevención</a>
+    </nav>
+
+    <span class="top-tag">CASO AMBIENTAL</span>
+  </header>
+
+  <main>
+
+    <!-- PORTADA -->
+    <section class="hero" id="inicio">
+      <div class="hero-grid"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">
+          <span class="pulse"></span>
+          GOLFO DE MÉXICO · 20 ABRIL 2010
+        </p>
+
+        <h1>El costo de<br><em>un desastre</em></h1>
+
+        <p class="hero-sub">
+          Derrame petrolero<br>
+          <strong>Deepwater Horizon</strong>
+        </p>
+
+        <p class="hero-copy">
+          Una explosión, 87 días de fuga y un impacto que transformó
+          la conversación sobre seguridad industrial y protección
+          de los océanos.
+        </p>
+
+        <a class="cta" href="#contexto">
+          Explorar el caso <span>↓</span>
+        </a>
+      </div>
+
+      <div class="hero-art">
+        <div class="sun"></div>
+        <div class="oil oil-one"></div>
+        <div class="oil oil-two"></div>
+        <div class="rig"><span></span><i></i><b></b><small></small></div>
+        <div class="waterline"></div>
+        <div class="art-caption">MACONDO WELL · GOLFO DE MÉXICO</div>
+      </div>
+
+      <div class="hero-index">01 <span>—</span> 09</div>
+    </section>
+
+    <!-- INTRODUCCIÓN -->
+    <section class="section intro" id="contexto">
+      <div class="section-kicker">01 / CONTEXTO</div>
+
+      <div class="section-heading">
+        <p class="eyebrow">EL ACCIDENTE EN CIFRAS</p>
+        <h2>Un evento que<br><em>no debía ocurrir.</em></h2>
+      </div>
+
+      <div class="intro-copy">
+        <p>
+          El derrame comenzó tras una explosión en la plataforma
+          de perforación Deepwater Horizon. El petróleo escapó
+          del pozo Macondo y llegó al Golfo de México,
+          convirtiéndose en uno de los accidentes petroleros
+          marinos más graves de la historia.
+        </p>
+
+        <p class="small-note">
+          El caso evidenció los riesgos de extraer hidrocarburos
+          en aguas profundas y la importancia de que la prevención
+          sea una prioridad.
+        </p>
+      </div>
+
+      <div class="stats">
+        <article class="stat-card">
+          <span class="stat-number" data-count="87">0</span>
+          <span class="stat-unit">DÍAS</span>
+          <p>de fuga continua antes de sellar el pozo.</p>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-number" data-count="11">0</span>
+          <span class="stat-unit">PERSONAS</span>
+          <p>perdieron la vida en la explosión.</p>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-number" data-count="134">0</span>
+          <span class="stat-unit">MILLONES</span>
+          <p>de galones de petróleo llegaron al mar, aproximadamente.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section class="location-section">
+      <div class="location-visual">
+        <div class="map-label label-louisiana">LUISIANA, EE. UU.</div>
+        <div class="map-label label-gulf">GOLFO DE MÉXICO</div>
+        <div class="map-dot"></div>
+        <div class="map-line"></div>
+        <span class="map-pin">MACONDO</span>
+        <div class="map-coast"></div>
+      </div>
+
+      <div class="location-text">
+        <div class="section-kicker">02 / UBICACIÓN</div>
+        <p class="eyebrow">EL PUNTO DE ORIGEN</p>
+
+        <h2>En aguas profundas,<br><em>lejos de la costa.</em></h2>
+
+        <ul class="fact-list">
+          <li><strong>Zona:</strong> norte del Golfo de México.</li>
+          <li><strong>Distancia:</strong> aproximadamente 80 km de la costa de Luisiana.</li>
+          <li><strong>Pozo:</strong> Macondo, en aguas profundas.</li>
+          <li><strong>Profundidad marina:</strong> alrededor de 1,500 m.</li>
+        </ul>
+
+        <p class="small-note">Esquema conceptual de ubicación; no está a escala.</p>
+      </div>
+    </section>
+
+    <!-- CAUSAS -->
+    <section class="section causes" id="causas">
+      <div class="section-kicker">03 / ANÁLISIS DE FALLAS</div>
+
+      <p class="eyebrow">NO FUE UNA SOLA FALLA</p>
+
+      <h2>Una cadena de decisiones<br>
+        <em>que abrió la puerta al desastre.</em>
+      </h2>
+
+      <p class="section-lead">
+        El accidente se relacionó con fallas técnicas y organizativas
+        que, al combinarse, impidieron controlar el pozo.
+      </p>
+
+      <div class="cause-grid">
+        <article class="cause-card">
+          <span>01</span>
+          <div class="cause-icon">◌</div>
+          <h3>Falla del cemento</h3>
+          <p>El cemento no logró sellar correctamente el pozo.</p>
+        </article>
+
+        <article class="cause-card">
+          <span>02</span>
+          <div class="cause-icon">⌁</div>
+          <h3>Prueba mal interpretada</h3>
+          <p>Se consideró correcta una prueba que mostraba señales de peligro.</p>
+        </article>
+
+        <article class="cause-card">
+          <span>03</span>
+          <div class="cause-icon">!</div>
+          <h3>Señales ignoradas</h3>
+          <p>No se detectó a tiempo la entrada de petróleo y gas.</p>
+        </article>
+
+        <article class="cause-card">
+          <span>04</span>
+          <div class="cause-icon">×</div>
+          <h3>Fallo del preventor</h3>
+          <p>El sistema de emergencia no consiguió cerrar el pozo.</p>
+        </article>
+      </div>
+
+      <div class="warning-note">
+        <span>!</span>
+        <p>
+          Las investigaciones concluyeron que el accidente pudo evitarse
+          con mejores decisiones, comunicación y controles de seguridad.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONSECUENCIAS -->
+    <section class="impact-section" id="impacto">
+      <div class="impact-top">
+        <div>
+          <div class="section-kicker">04 / CONSECUENCIAS</div>
+          <p class="eyebrow">EL IMPACTO AMBIENTAL</p>
+          <h2>El petróleo no se quedó<br>
+            <em>en un solo lugar.</em>
+          </h2>
+        </div>
+
+        <p>
+          La contaminación alcanzó distintos ambientes marinos
+          y costeros. Sus efectos se extendieron a la biodiversidad
+          y a las actividades de las comunidades.
+        </p>
+      </div>
+
+      <div class="impact-grid">
+        <article class="impact-item">
+          <div class="impact-symbol">≈</div>
+          <h3>Agua</h3>
+          <p>Contaminación en aguas superficiales y profundas, además de zonas costeras.</p>
+        </article>
+
+        <article class="impact-item">
+          <div class="impact-symbol">✳</div>
+          <h3>Fauna</h3>
+          <p>Afectaciones a peces, tortugas, aves, mamíferos y organismos del fondo marino.</p>
+        </article>
+
+        <article class="impact-item">
+          <div class="impact-symbol">⌂</div>
+          <h3>Hábitats</h3>
+          <p>Daños en humedales, playas, corales y otros ecosistemas.</p>
+        </article>
+
+        <article class="impact-item">
+          <div class="impact-symbol">↗</div>
+          <h3>Comunidades</h3>
+          <p>Consecuencias para la pesca, el turismo y el trabajo costero.</p>
+        </article>
+      </div>
+
+      <div class="coast-callout">
+        <strong>+1,300</strong>
+        <span>MILLAS DE COSTA</span>
+        <p>Aproximadamente 2,090 km de costa fueron afectados por el petróleo.</p>
+      </div>
+    </section>
+
+    <!-- CANTIDAD DE CONTAMINACIÓN -->
+    <section class="section water-section">
+      <div class="water-copy">
+        <div class="section-kicker">05 / DIMENSIÓN DEL DERRAME</div>
+        <p class="eyebrow">¿CUÁNTA AGUA SE CONTAMINÓ?</p>
+
+        <h2>No existe una<br><em>cifra única.</em></h2>
+
+        <p>
+          No es correcto convertir el volumen de petróleo liberado
+          en una cantidad exacta de agua contaminada. El petróleo
+          se dispersó en la superficie, bajo el agua y en las costas.
+        </p>
+      </div>
+
+      <div class="water-data">
+        <div class="data-row">
+          <span class="data-value">134 M</span>
+          <div>
+            <b>galones de petróleo</b>
+            <p>Volumen aproximado liberado (3.19 millones de barriles).</p>
+          </div>
+        </div>
+
+        <div class="data-row">
+          <span class="data-value">43,300</span>
+          <div>
+            <b>millas²</b>
+            <p>Área acumulada aproximada donde se detectó la mancha superficial.</p>
+          </div>
+        </div>
+
+        <div class="data-row">
+          <span class="data-value">87</span>
+          <div>
+            <b>días</b>
+            <p>Del 20 de abril al 15 de julio de 2010.</p>
+          </div>
+        </div>
+
+        <div class="clarification">
+          Dato clave: 134 millones corresponde al volumen de petróleo,
+          no al volumen de agua.
+        </div>
+      </div>
+    </section>
+
+    <!-- CRONOLOGÍA -->
+    <section class="section timeline-section" id="respuesta">
+      <div class="section-kicker">06 / RESPUESTA E INVESTIGACIÓN</div>
+      <p class="eyebrow">CRONOLOGÍA</p>
+
+      <h2>87 días que marcaron<br>
+        <em>un antes y un después.</em>
+      </h2>
+
+      <div class="timeline">
+        <article>
+          <time>20 ABR 2010</time>
+          <div class="timeline-dot"></div>
+          <div>
+            <h3>Explosión e incendio</h3>
+            <p>La plataforma sufrió una explosión; se hundió dos días después.</p>
+          </div>
+        </article>
+
+        <article>
+          <time>15 JUL 2010</time>
+          <div class="timeline-dot"></div>
+          <div>
+            <h3>El pozo es tapado</h3>
+            <p>La fuga de petróleo dejó de liberarse al mar.</p>
+          </div>
+        </article>
+
+        <article>
+          <time>2010—2011</time>
+          <div class="timeline-dot"></div>
+          <div>
+            <h3>Limpieza y evaluación</h3>
+            <p>Se realizaron trabajos de contención, limpieza y evaluación de daños.</p>
+          </div>
+        </article>
+
+        <article>
+          <time>2016</time>
+          <div class="timeline-dot"></div>
+          <div>
+            <h3>Acuerdo de restauración</h3>
+            <p>Se aprobó un acuerdo de 20,800 millones de dólares; hasta 8,800 millones se destinaron a restauración ambiental.</p>
+          </div>
+        </article>
+      </div>
+
+      <p class="timeline-footnote">
+        La recuperación ecológica es de largo plazo y requiere seguimiento.
+      </p>
+    </section>
+
+    <!-- PREVENCIÓN -->
+    <section class="prevention" id="prevencion">
+      <div class="section-kicker">07 / MIRAR HACIA ADELANTE</div>
+      <p class="eyebrow">OCHO ACCIONES PARA PREVENIR</p>
+
+      <h2>La prevención también<br>
+        <em>protege la vida.</em>
+      </h2>
+
+      <div class="action-list">
+        <div><b>01</b><span>Fortalecer inspecciones y normas de seguridad en plataformas.</span></div>
+        <div><b>02</b><span>Revisar varias veces el cemento y las barreras de los pozos.</span></div>
+        <div><b>03</b><span>Capacitar al personal para reconocer señales de peligro.</span></div>
+        <div><b>04</b><span>Detener operaciones cuando exista un riesgo importante.</span></div>
+        <div><b>05</b><span>Mantener planes de emergencia y equipos de respuesta listos.</span></div>
+        <div><b>06</b><span>Usar satélites, barcos y sensores para vigilar el mar.</span></div>
+        <div><b>07</b><span>Restaurar manglares, humedales y hábitats dañados.</span></div>
+        <div><b>08</b><span>Promover energías limpias y reducir la dependencia del petróleo.</span></div>
+      </div>
+    </section>
+
+    <!-- CONCLUSIÓN -->
+    <section class="closing">
+      <div class="section-kicker">08 / CONCLUSIÓN</div>
+      <p class="eyebrow">LO QUE DEBEMOS APRENDER</p>
+
+      <h2>El océano no tiene<br>
+        un botón de <em>reinicio.</em>
+      </h2>
+
+      <p>
+        Deepwater Horizon demostró que un accidente petrolero puede
+        causar daños enormes al ambiente, a la economía y a las personas.
+        Aunque la fuga se detuvo y comenzaron proyectos de restauración,
+        algunos daños tardan muchos años en recuperarse.
+      </p>
+
+      <p class="closing-line">
+        La mejor solución es prevenir: trabajar con seguridad,
+        proteger los ecosistemas y buscar formas de energía
+        menos contaminantes.
+      </p>
+
+      <span class="final-mantra">
+        CUIDAR EL MAR ES PROTEGER LA VIDA Y EL FUTURO.
+      </span>
+    </section>
+
+    <!-- FUENTES -->
+    <section class="sources">
+      <div>
+        <div class="section-kicker">09 / FUENTES</div>
+        <h2>Para seguir<br><em>investigando.</em></h2>
+      </div>
+
+      <ul>
+        <li>
+          <a href="https://darrp.noaa.gov/oil-spills/deepwater-horizon" target="_blank" rel="noopener">
+            NOAA — Deepwater Horizon ↗
+          </a>
+        </li>
+
+        <li>
+          <a href="https://oceanservice.noaa.gov/education/tutorial-coastal/oil-spills/os04-sub-01.html" target="_blank" rel="noopener">
+            NOAA Ocean Service — ¿Qué ocurrió? ↗
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.gulfspillrestoration.noaa.gov/" target="_blank" rel="noopener">
+            NOAA — Cifras y restauración ↗
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.govinfo.gov/content/pkg/GOVPUB-PR-PURL-gpo4390/pdf/GOVPUB-PR-PURL-gpo4390.pdf" target="_blank" rel="noopener">
+            Comisión Nacional de Investigación (2011) ↗
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>DEEPWATER HORIZON / 2010</span>
+    <span>Presentación web · Proyecto escolar</span>
+    <a href="#inicio">VOLVER ARRIBA ↑</a>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
